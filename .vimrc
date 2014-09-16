@@ -1,5 +1,18 @@
+call pathogen#infect()
+call pathogen#helptags()
+
+"Colors
+let g:solarized_termcolors=256
+set t_Co=256
 syntax on
 set background=dark
+colorscheme solarized
+
+"Whitespace mappnig
+let g:indent_guides_auto_colors = 0
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red ctermbg=3
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
+let g:indentLine_color_term = 239
 
 "Spaces and tabs
 set tabstop=4

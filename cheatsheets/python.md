@@ -39,14 +39,3 @@ Matplotlib
 
 * plot a line:
 ```ax.plot(x, y)```
-
-
-PEP8
-====
-
-one day i hope to be a better and more PEP8 compliant individual
-
-* no tabs. use 4 spaces
-* line limit to 72 or 79 characters
-* imports should be on separate lines
-* imports should be grouped in: standard libs, related 3rd party libs,local stuff
