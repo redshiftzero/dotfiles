@@ -45,8 +45,8 @@ set cul
 hi CursorLine term=none cterm=none ctermbg=5
 
 "Wrap text after 72 characters because PEP8.
-set textwidth=72
-set foldcolumn=1
+"set textwidth=72
+"set foldcolumn=1
 
 "Highlight those characters toward end of line
 augroup vimrc_autocmds
