@@ -31,7 +31,7 @@ set cursorline
 set cul
 hi CursorLine term=none cterm=none ctermbg=3
 
-"Wrap text after 72 characters because PEP8.
+"Wrap text after 79 characters because PEP8.
 set textwidth=79
 "set foldcolumn=1
 
