@@ -15,7 +15,5 @@ git config --global core.excludesfile '~/.gitignore'
 vimrc
 =====
 
-I use Pathogen (https://github.com/tpope/vim-pathogen) to load:
-
-* Solarize for nice colors: https://github.com/altercation/vim-colors-solarized
-* indentLine for keeping track of indentation: https://github.com/Yggdroot/indentLine
+Cuts lines at 79 characters, so if you don't care about Python PEP8 prepare to
+be annoyed
